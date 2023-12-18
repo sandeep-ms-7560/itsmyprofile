@@ -97,6 +97,27 @@
       .custom-navbar-bg {
         background-color: #5c5c5c;
     }
+
+        .contact-container {
+        display: flex;
+        justify-content: flex-end;
+        align-items: center;
+    }
+
+    .contact-container h6 {
+        margin: 0;
+    }
+
+    .contact-container img {
+        margin-right: 10px;
+    }
+
+    @media (max-width: 600px) {
+        .contact-container {
+            flex-direction: row;
+            justify-content: flex-end;
+        }
+    }
     </style>
 
     
@@ -219,13 +240,17 @@
         <div class="container">
           <div class="carousel-caption text-end">
             <h1>Contact Me</h1>
-            <div style="display: flex; justify-content: flex-end; align-items: center;">
-    <h6><img src="static/images/mail.png" width="35" height="35" style="margin-right: 10px;">sandeep.ms0603@gmail.com</h6>
-</div>
+            <div class="contact-container">
+    <h6><img src="static/images/mail.png" width="38" height="38">sandeep.ms0603@gmail.com</h6>&nbsp;&nbsp;&nbsp;
+    <h6><img src="static/images/call.jpg" width="30" height="30">+91-8304080289</h6>
+           </div>
+<!--            <div style="display: flex; justify-content: flex-end; align-items: center;">-->
+<!--    <h6><img src="static/images/mail.png" width="35" height="35" style="margin-right: 10px;">sandeep.ms0603@gmail.com</h6>-->
+<!--</div>-->
 
-<div style="display: flex;justify-content: flex-end; align-items: center;">
-    <h6><img src="static/images/call.jpg" width="30" height="30" style="margin-right: 10px;">+91-8304080289</h6>
-</div>
+<!--<div style="display: flex;justify-content: flex-end; align-items: center;">-->
+<!--    <h6><img src="static/images/call.jpg" width="30" height="30" style="margin-right: 10px;">+91-8304080289</h6>-->
+<!--</div>-->
             <p>https://www.linkedin.com/in/sandeep-ms-b68583195</p>
             <p><a class="btn btn-lg btn-primary" href="#">Browse gallery</a></p>
           </div>
